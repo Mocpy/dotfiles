@@ -1,0 +1,7 @@
+autojump
+canon-pixma-ts5055-complete
+python2
+snapd
+ttf-ms-fonts
+usbimager
+yay-git

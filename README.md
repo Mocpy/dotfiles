@@ -70,3 +70,17 @@ packages list:
 - `zsh`
 - `zsh-autosuggestions`
 - `zsh-syntax-highlighting`
+
+AUR packages
+---------------
+Instaling AUR packages:
+```bash
+yay -S <package name>
+```
+package list :
+- `autojump`
+- `canon-pixma-ts5055-complete`
+- `snapd`
+- `ttf-ms-fonts`
+- `usbimager`
+- `yay-git`
