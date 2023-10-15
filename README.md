@@ -71,6 +71,19 @@ packages list:
 - `zsh-autosuggestions`
 - `zsh-syntax-highlighting`
 
+Install all packages from list:
+1. download 'ArchLinux_packages.txt'
+2. go to the directory there file is instaled
+```bash
+cd <name of that directory>
+```
+3. Run the following command to install the packages listed in your .txt file using sudo pacman -S
+
+```bash
+sudo pacman -S --needed - < ArchLinux_packages.txt
+```
+
+
 AUR packages
 ---------------
 Instaling AUR packages:
@@ -84,3 +97,15 @@ package list :
 - `ttf-ms-fonts`
 - `usbimager`
 - `yay-git`
+
+Install all packages from list:
+1. download 'AUR_packages.txt'
+2. go to the directory that file is instaled
+```bash
+cd <name of that directory>
+```
+3. Run the following command to install the packages listed in your .txt file using yay -S
+
+```bash
+yay -S --needed - < AUR_packages.txt
+```
